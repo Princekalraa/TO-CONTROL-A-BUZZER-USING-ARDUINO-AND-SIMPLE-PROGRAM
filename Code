@@ -1,0 +1,9 @@
+//code : - 
+#define buzzer 12 // buzzer wille connected to pin 12
+void setup() {
+pinMode(buzzer,OUTPUT); }
+void loop() {
+digitalWrite(buzzer,HIGH); // turn on buzzer
+delay(1000); //time in millisec 1000=1sec
+digitalWrite(buzzer,LOW); //turn off buzzer
+delay(1000);  }
